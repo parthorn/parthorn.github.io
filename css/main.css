@@ -49,6 +49,7 @@ header nav .logo:hover {
 header .nav-links {
     display: flex; /* Group navigation links together */
     gap: 20px; /* Space between links */
+    margin-left: auto; /* Push the navigation links to the far right */
 }
 
 header .nav-links a {
@@ -59,6 +60,7 @@ header .nav-links a {
 
 header .nav-links a:hover {
     color: #ffbf00; /* Amber hover effect */
+    text-decoration: none; /* No underline */
 }
 
 /* Main Section */
