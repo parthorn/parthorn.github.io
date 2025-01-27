@@ -27,11 +27,11 @@ header {
     padding: 1rem 2rem;
 }
 
-header nav {
+/* header nav {
     display: flex; /* Make navigation items inline */
-    gap: 20px; /* Space between navigation links */
-    align-items: center; /* Align links vertically */
-}
+    /*gap: 20px; /* Space between navigation links */
+    /*align-items: center; /* Align links vertically */
+/*}*/
 
 header nav .logo {
     font-size: 1.5rem; /* Larger font size for "Parthorn Ammawat" */
