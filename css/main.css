@@ -27,18 +27,18 @@ header {
     padding: 1rem 2rem;
 }
 
-/* header nav {
-    display: flex; /* Make navigation items inline */
-    /*gap: 20px; /* Space between navigation links */
-    /*align-items: center; /* Align links vertically */
-/*}*/
+header nav {
+    display: flex; /* Group logo and nav-links */
+    width: 100%; /* Ensure nav spans full width */
+    align-items: center;
+}
 
 header nav .logo {
     font-size: 1.5rem; /* Larger font size for "Parthorn Ammawat" */
     font-weight: 400; /* Regular weight */
-    color: #f1f1f1; /* white color */
-    margin-right: auto; /* Push other links to the right */
+    color: #f1f1f1; /* White color */
     text-decoration: none; /* Remove underline */
+    margin-right: auto; /* Push the nav-links to the right */
 }
 
 header nav .logo:hover {
@@ -49,19 +49,21 @@ header nav .logo:hover {
 header .nav-links {
     display: flex; /* Group navigation links together */
     gap: 20px; /* Space between links */
-    margin-left: auto; /* Push the navigation links to the far right */
+    align-items: center; /* Align links vertically */
 }
 
 header .nav-links a {
     color: #f1f1f1; /* White links */
     font-size: 1.1rem;
     font-weight: 400; /* Regular weight for links */
+    text-decoration: none; /* Remove underline */
 }
 
 header .nav-links a:hover {
     color: #ffbf00; /* Amber hover effect */
     text-decoration: none; /* No underline */
 }
+
 
 /* Main Section */
 section {
