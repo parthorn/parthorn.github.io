@@ -31,7 +31,6 @@ header nav {
     display: flex; /* Group logo and nav-links */
     align-items: center;
     max-width: 800px; /* Same max-width as the body */
-    margin: 0 auto; /* Center the header content */
 }
 
 header nav .logo {
