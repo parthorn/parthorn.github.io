@@ -30,7 +30,7 @@ header {
 header nav {
     display: flex; /* Group logo and nav-links */
     align-items: center;
-    max-width: 800px; /* Same max-width as the body */
+    max-width: 1000px; /* Same max-width as the body */
 }
 
 header nav .logo {
