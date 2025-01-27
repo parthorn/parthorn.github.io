@@ -29,8 +29,9 @@ header {
 
 header nav {
     display: flex; /* Group logo and nav-links */
-    width: 100%; /* Ensure nav spans full width */
     align-items: center;
+    max-width: 1200px; /* Same max-width as the body */
+    margin: 0 auto; /* Center the header content */
 }
 
 header nav .logo {
