@@ -20,10 +20,15 @@ a:hover {
 
 /* Header Section */
 header {
-    max-width: 800px; /* Match the section's max-width */
-    margin: 0 auto; /* Center the header */
-    padding: 1rem 2rem; /* Same padding as the section */
+    width: 100%; /* Full width of the header */
     background-color: #2c2c2c; /* Slightly lighter dark grey */
+    padding: 1rem 0; /* Vertical padding for header */
+}
+
+header .header-content {
+    max-width: 800px; /* Match the section's max-width */
+    margin: 0 auto; /* Center the content within the header */
+    padding: 0 2rem; /* Horizontal padding */
     display: flex; /* Enable Flexbox */
     justify-content: space-between; /* Space between logo and nav-links */
     align-items: center; /* Align items vertically */
