@@ -28,11 +28,10 @@ header {
 .header-inner {
     max-width: 800px; /* Same width as the section */
     margin: 0 auto; /* Center content horizontally */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Push logo and nav-links to edges */
+    align-items: center; /* Vertically align logo and nav-links */
     padding: 0 1rem; /* Add padding for smaller screens */
-    display: flex; /* Use Flexbox for layout */
-    justify-content: space-between; /* Separate logo and nav-links */
-    align-items: center; /* Ensure items are vertically aligned */
-    padding: 0 1.5rem; /* Add padding to align with section */
 }
 
 header .logo {
