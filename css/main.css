@@ -31,6 +31,8 @@ header {
 
 header nav {
     display: flex; /* Group logo and nav-links */
+    width: 100%; /* Make nav take the full width of the header */
+    justify-content: space-between; /* Distribute logo and nav-links to opposite sides */
     align-items: center;
 }
 
@@ -39,7 +41,7 @@ header nav .logo {
     font-weight: 400; /* Regular weight */
     color: #f1f1f1; /* White color */
     text-decoration: none; /* Remove underline */
-    margin-right: auto; /* Push the nav-links to the right */
+    /* margin-right: auto; /* Push the nav-links to the right */
 }
 
 header nav .logo:hover {
