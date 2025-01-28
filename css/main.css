@@ -35,11 +35,13 @@ header {
 }
 
 header .logo {
+    flex: 1;
     font-size: 1.5rem; /* Larger font size for "Parthorn Ammawat" */
     font-weight: 400; /* Regular weight */
     color: #f1f1f1; /* White color */
     text-decoration: none; /* Remove underline */
     white-space: nowrap; /* Prevent wrapping */
+    justify-content: flex-start;
 }
 
 header .logo:hover {
@@ -48,10 +50,12 @@ header .logo:hover {
 }
 
 .nav-links {
+    flex:1;
     display: flex; /* Group navigation links together */
     gap: 20px; /* Space between links */
     align-items: center; /* Vertically align links */
     white-space: nowrap; /* Prevent wrapping */
+    justify-content: flex-end;
 }
 
 .nav-links a {
