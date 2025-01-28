@@ -18,29 +18,28 @@ a:hover {
     color: #ffbf00;
 }
 
-/* General Header Styles */
+/* Header Section */
 header {
-    width: 100%; /* Full width for the header */
+    width: 100%; /* Full-width header */
     background-color: #2c2c2c; /* Slightly lighter dark grey */
     padding: 1rem 0; /* Vertical padding for header */
 }
 
-/* Confine header content */
 .header-inner {
-    max-width: 800px; /* Match the width of the section */
-    margin: 0 auto; /* Center the content horizontally */
-    padding: 0 1rem; /* Add horizontal padding for small screens */
-    display: flex; /* Use Flexbox for alignment */
+    max-width: 800px; /* Same width as the section */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 1rem; /* Add padding for smaller screens */
+    display: flex; /* Use Flexbox for layout */
     justify-content: space-between; /* Separate logo and nav-links */
-    align-items: center; /* Align items vertically */
+    align-items: center; /* Ensure items are vertically aligned */
 }
 
-/* Logo styles */
 header .logo {
     font-size: 1.5rem; /* Larger font size for "Parthorn Ammawat" */
     font-weight: 400; /* Regular weight */
     color: #f1f1f1; /* White color */
     text-decoration: none; /* Remove underline */
+    white-space: nowrap; /* Prevent wrapping */
 }
 
 header .logo:hover {
@@ -48,24 +47,24 @@ header .logo:hover {
     text-decoration: underline;
 }
 
-/* Navigation links styles */
-header .nav-links {
+.nav-links {
     display: flex; /* Group navigation links together */
     gap: 20px; /* Space between links */
-    align-items: center; /* Align links vertically */
+    align-items: center; /* Vertically align links */
+    white-space: nowrap; /* Prevent wrapping */
 }
 
-header .nav-links a {
+.nav-links a {
     color: #f1f1f1; /* White links */
     font-size: 1.1rem;
     font-weight: 400; /* Regular weight for links */
     text-decoration: none; /* Remove underline */
 }
 
-header .nav-links a:hover {
+.nav-links a:hover {
     color: #ffbf00; /* Amber hover effect */
-    text-decoration: none; /* No underline */
 }
+
 
 
 /* Main Section */
