@@ -32,6 +32,7 @@ header {
     display: flex; /* Use Flexbox for layout */
     justify-content: space-between; /* Separate logo and nav-links */
     align-items: center; /* Ensure items are vertically aligned */
+    padding: 0 1.5rem; /* Add padding to align with section */
 }
 
 header .logo {
@@ -64,8 +65,6 @@ header .logo:hover {
 .nav-links a:hover {
     color: #ffbf00; /* Amber hover effect */
 }
-
-
 
 /* Main Section */
 section {
