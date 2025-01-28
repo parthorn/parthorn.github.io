@@ -29,7 +29,7 @@ header {
     max-width: 800px; /* Same width as the section */
     margin: 0 auto; /* Center content horizontally */
     display: flex; /* Flexbox for layout */
-    justify-content: space-between; /* Push logo and nav-links to edges */
+    /* justify-content: space-between; /* Push logo and nav-links to edges */
     align-items: center; /* Vertically align logo and nav-links */
     padding: 0 1rem; /* Add padding for smaller screens */
 }
