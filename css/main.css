@@ -49,11 +49,18 @@ header .logo:hover {
     text-decoration: underline;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-items: space-between;
+}
+
 .nav-links {
     flex:1;
     display: flex; /* Group navigation links together */
     gap: 20px; /* Space between links */
-    align-items: center; /* Vertically align links */
+    align-items: end; /* Vertically align links */
     white-space: nowrap; /* Prevent wrapping */
     justify-content: flex-end;
 }
