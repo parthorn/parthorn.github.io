@@ -77,6 +77,11 @@ nav {
     color: #ffbf00; /* Amber hover effect */
 }
 
+.nav-links a:active {
+    color: #ffbf00; /* Amber active effect */
+    font-weight: bold;
+}
+
 /* Main Section */
 section {
     max-width: 800px;
