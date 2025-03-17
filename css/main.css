@@ -77,7 +77,7 @@ nav {
     color: #ffbf00; /* Amber hover effect */
 }
 
-.nav-links a:active {
+.nav-links a:visited {
     color: #ffbf00; /* Amber active effect */
     font-weight: bold;
 }
