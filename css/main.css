@@ -5,7 +5,7 @@ body {
     padding: 0;
     padding-top: 40px;
     background-color: #1e1e1e; /* Dark grey background */
-    color: #f1f1f1; /* Light text */
+    color: #d3d3d3; /* Light text */
     line-height: 1.6;
 }
 
@@ -101,7 +101,7 @@ section {
 }
 
 section h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     color: #f1f1f1; /* White headings */
 }
@@ -158,6 +158,10 @@ footer {
     align-items: center; /* Centers text vertically */
     height: 100%; /* Ensure it takes full footer height */
 }
+
+.profile-photo {
+    border-radius: 8px;
+  }
 
 /* Utility Classes */
 .hidden {
