@@ -15,6 +15,7 @@
         <div class="header-inner">
             <nav>
                 <a href="/" class="logo">Parthorn Ammawat</a>
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
                 <div class="nav-links">
                     <a href="/research">Research</a>
                     <a href="/cv">CV</a>
@@ -65,5 +66,12 @@
             <p>&copy; 2025 Parthorn Ammawat. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+    
 </body>
 </html>

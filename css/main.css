@@ -159,9 +159,48 @@ footer {
     height: 100%; /* Ensure it takes full footer height */
 }
 
-.profile-photo {
-    border-radius: 8px;
-  }
+/* Mobile-first responsive styles */
+.hamburger {
+    display: none; /* Hidden by default on larger screens */
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show hamburger on mobile */
+        position: absolute;
+        right: 1rem;
+        top: 15px;
+    }
+
+    .nav-links {
+        display: none; /* Hide nav links by default */
+        flex-direction: column;
+        background: #2c2c2c;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+
+    .nav-links.show {
+        display: flex; /* Show nav when active */
+    }
+}
 
 /* Utility Classes */
 .hidden {
