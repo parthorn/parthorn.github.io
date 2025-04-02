@@ -181,20 +181,42 @@ footer {
 
 /* Mobile Styles */
 @media (max-width: 800px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    /* Ensure header and footer have padding */
+    header {
+        padding: 10px 1rem; /* Add padding for spacing */
+    }
+
+    footer {
+        padding: 10px 1rem; /* Add padding for spacing */
+        text-align: center;
+    }
+
+    /* Fixing hamburger menu */
     .hamburger {
-        display: block;
+        display: block; /* Show hamburger on mobile */
+        font-size: 1.8rem;
+        background: none;
+        border: none;
+        color: #f1f1f1;
+        cursor: pointer;
         position: absolute;
         right: 1rem;
-        top: 15px;
+        top: 10px; /* Move up slightly */
+        z-index: 1001;
     }
 
     .nav-links {
-        display: none;
+        display: none; /* Hide nav links by default */
         flex-direction: column;
         background: #2c2c2c;
         position: absolute;
         top: 60px;
-        left: 0;
+        left: 0; /* Ensure it stays within screen bounds */
         width: 100%;
         text-align: center;
         padding: 10px 0;
@@ -207,11 +229,11 @@ footer {
         font-size: 1.2rem;
     }
 
-    /* ✅ Fix for Hamburger Button */
     .nav-links.show {
-        display: flex;
+        display: flex; /* Show nav when active */
     }
 }
+
 
 /* Utility Classes */
 .hidden {
