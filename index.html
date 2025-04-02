@@ -15,7 +15,7 @@
         <div class="header-inner">
             <nav>
                 <a href="/" class="logo">Parthorn Ammawat</a>
-                <button class="hamburger" onclick="toggleMenu()">☰</button>
+                <button class="hamburger">☰</button>
                 <div class="nav-links">
                     <a href="/research">Research</a>
                     <a href="/teaching">Teaching</a>
@@ -70,9 +70,14 @@
     </footer>
 
     <script>
-        function toggleMenu() {
-            document.querySelector(".nav-links").classList.toggle("show");
-        }
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const navLinks = document.querySelector(".nav-links");
+    
+            hamburger.addEventListener("click", function () {
+                navLinks.classList.toggle("show");
+            });
+        });
     </script>
 
 </body>
