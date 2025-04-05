@@ -127,7 +127,7 @@ ul {
 
 .pdf-container object {
     width: 100%;
-    height: 80vh; /* Or a fixed height like 1000px */
+    height: 1000px;
     border: none;
 }
 
