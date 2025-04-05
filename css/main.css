@@ -131,6 +131,12 @@ ul {
     border: none;
 }
 
+.cv-download {
+    display: none; /* Hidden by default */
+    margin-top: 1rem;
+    text-align: center;
+}
+
 
 /* Footer */
 footer {
@@ -204,6 +210,14 @@ footer {
     footer {
         box-sizing: border-box;
         padding: 15px 2rem;
+    }
+
+    .cv-embed {
+        display: none; /* Hide PDF object on mobile */
+    }
+
+    .cv-download {
+        display: inline-block; /* Show download button */
     }
 }
 

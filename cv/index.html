@@ -27,16 +27,15 @@
     
     <section id="cv">
         <div class="pdf-container">
-            <object data="/assets/pdf/my-cv.pdf" type="application/pdf"></object>
-            <noscript>
-                <p>
-                    PDF not supported on your device. 
-                    <a href="/assets/pdf/my-cv.pdf" target="_blank">Click here to download.</a>
-                </p>
-            </noscript>
-            
+            <object class="cv-embed" data="/assets/pdf/my-cv.pdf" type="application/pdf" width="800" height="1000">
+                <p>It seems your browser doesn't support PDFs. 
+                <a href="/assets/pdf/my-cv.pdf" target="_blank">Download the CV here.</a></p>
+            </object>
+    
+            <a class="cv-download btn" href="/assets/pdf/my-cv.pdf" target="_blank" download>Download CV</a>
         </div>
     </section>
+    
     
     <footer>
         <div class="footer-inner">
