@@ -26,11 +26,18 @@
     </header>
     
     <section id="cv">
-        <!-- <h2>CV</h2> -->
-        <!-- <a href="my-cv.pdf" class="btn" target="_blank">My CV</a> -->
-         <object data="/assets/pdf/my-cv.pdf" width="800" height="1000"></object>
+        <div class="pdf-container">
+            <object data="/assets/pdf/my-cv.pdf" type="application/pdf"></object>
+            <noscript>
+                <p>
+                    PDF not supported on your device. 
+                    <a href="/assets/pdf/my-cv.pdf" target="_blank">Click here to download.</a>
+                </p>
+            </noscript>
+            
+        </div>
     </section>
-
+    
     <footer>
         <div class="footer-inner">
             <p>&copy; 2025 Parthorn Ammawat. All rights reserved.</p>
