@@ -213,11 +213,11 @@ footer {
     }
 
     .cv-embed {
-        display: none; /* Hide PDF object on mobile */
+        display: none !important; /* Hide PDF object on mobile */
     }
 
     .cv-download {
-        display: inline-block; /* Show download button */
+        display: inline-block !important; /* Show download button */
     }
 }
 
