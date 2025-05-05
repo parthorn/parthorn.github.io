@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <!-- Link to External CSS -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
     <header>
         <div class="header-inner">
@@ -19,18 +21,19 @@
                 <div class="nav-links">
                     <a href="/research">Research</a>
                     <a href="/teaching">Teaching</a>
+                    <a href="/projects">Projects</a>
                     <a class="curr-site" href="/cv">CV</a>
                 </div>
             </nav>
         </div>
     </header>
-    
+
     <section id="cv">
-        <object class="cv-embed" data="/assets/pdf/my-cv.pdf" width="800" height="1000"></object>    
+        <object class="cv-embed" data="/assets/pdf/my-cv.pdf" width="800" height="1000"></object>
         <a class="cv-download" href="/assets/pdf/my-cv.pdf" target="_blank" download>Download CV</a>
     </section>
-    
-    
+
+
     <footer>
         <div class="footer-inner">
             <p>&copy; 2025 Parthorn Ammawat. All rights reserved.</p>
@@ -41,7 +44,7 @@
         document.addEventListener("DOMContentLoaded", function () {
             const hamburger = document.querySelector(".hamburger");
             const navLinks = document.querySelector(".nav-links");
-    
+
             hamburger.addEventListener("click", function () {
                 navLinks.classList.toggle("show");
             });
@@ -49,4 +52,5 @@
     </script>
 
 </body>
+
 </html>
