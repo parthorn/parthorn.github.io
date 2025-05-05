@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects | Parthorn Ammawat">
+    <title>Projects | Parthorn Ammawat</title>
+    <!-- Google Fonts: Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <nav>
+                <a href="/" class="logo">Parthorn Ammawat</a>
+                <button class="hamburger">☰</button>
+                <div class="nav-links">
+                    <a href="/research">Research</a>
+                    <a href="/teaching">Teaching</a>
+                    <a class="curr-site" href="/projects">Projects</a>
+                    <a href="/cv">CV</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Non-research projects</p>
+        <hr>
+        <h3>
+            Project 1
+        </h3>
+        <p>
+            <strong>coming soon</strong>
+        </p>
+        <p>
+            coming soon
+        </p>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2025 Parthorn Ammawat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const navLinks = document.querySelector(".nav-links");
+
+            hamburger.addEventListener("click", function () {
+                navLinks.classList.toggle("show");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
