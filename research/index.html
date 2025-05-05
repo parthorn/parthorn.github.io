@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <!-- Link to External CSS -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
     <header>
         <div class="header-inner">
@@ -24,58 +26,60 @@
             </nav>
         </div>
     </header>
-    
+
     <section id="research">
         <h2>Research</h2>
-        <p>Here are some of the projects I've worked on:</p>
+        <p>Research projects I've worked on</p>
         <hr>
         <h3>Development of a Qubit Module for Realizing Networks of Superconducting Quantum
             Processors
         </h3>
-            <p>
-                <strong>Prof. Oskar Painter, California Institute of Technology (April 2024 - December 2024)</strong>
-            </p>
-            <p>
-                <img src="../assets/img/qubit_module.jpg" style="margin-left: 10px;" 
-                width="750" alt="qubit module"/>
-                <img src="../assets/img/qubit_transducer.jpg" style="margin-left: 10px;" 
-                width="750" alt="single node"/>
-            </p>
-            <p>
-                I designed, fabricated, and characterized a <strong>superconducting transmon qubit module</strong> for integration 
-                with a <strong>quantum optomechanical transducer</strong> to realize a ‘node’ in a <strong>quantum network</strong> capable of emitting optical photons, 
-                which are entangled with superconducting qubits inside the node. To ensure efficient capture of microwave photons 
-                emitted by the transducer, I optimized the circuit geometry, using <strong>Sonnet</strong>, based on a prototype module to achieve better photon absorption efficiency. 
-                I also implemented asymmetric superconducting quantum interference devices (SQUIDs) to improve 
-                quantum coherence of the qubits. 
-                This qubit module can be implemented in a future quantum network distributing 
-                entanglement across remote superconducting processors.
-            </p>
-            <p>
-                Final report <a href="../assets/pdf/my-cv.pdf" target="_blank">available here</a>.
-            </p>
+        <p>
+            <strong>Prof. Oskar Painter, California Institute of Technology (April 2024 - December 2024)</strong>
+        </p>
+        <p>
+            <img src="../assets/img/qubit_module.jpg" style="margin-left: 10px;" width="750" alt="qubit module" />
+            <img src="../assets/img/qubit_transducer.jpg" style="margin-left: 10px;" width="750" alt="single node" />
+        </p>
+        <p>
+            I designed, fabricated, and characterized a <strong>superconducting transmon qubit module</strong> for
+            integration
+            with a <strong>quantum optomechanical transducer</strong> to realize a ‘node’ in a <strong>quantum
+                network</strong> capable of emitting optical photons,
+            which are entangled with superconducting qubits inside the node. To ensure efficient capture of microwave
+            photons
+            emitted by the transducer, I optimized the circuit geometry, using <strong>Sonnet</strong>, based on a
+            prototype module to achieve better photon absorption efficiency.
+            I also implemented asymmetric superconducting quantum interference devices (SQUIDs) to improve
+            quantum coherence of the qubits.
+            This qubit module can be implemented in a future quantum network distributing
+            entanglement across remote superconducting processors.
+        </p>
+        <p>
+            Final report <a href="../assets/pdf/my-cv.pdf" target="_blank">available here</a>.
+        </p>
         <hr>
         <h3>
             Realizing Photonic Integrated Circuits on Thin Film Lithium Niobate
         </h3>
-            <p>
-                <strong>Prof. Alireza Marandi, California Institute of Technology (January 2023 - December 2023)</strong>
-            </p>
-            <p>
-                <img src="../assets/img/couplers.jpg" style="margin-left: 10px;" 
-                width="750" alt="couplers"/>
-            </p>
-            <p>
-                In this project, I worked on integrated photonics using thin-film lithium niobate <strong>(TFLN)</strong>, 
-                a promising platform for low-cost, energy-efficient communication, sensing, and computing. 
-                Thanks to its strong nonlinearity, TFLN is emerging as a leading candidate for photonic computing. 
-                However, building a full optical computer requires integrating both linear and nonlinear elements 
-                on the same chip—something that has not yet been fully achieved. My goal was to help bridge this 
-                gap by optimizing a key component: optical couplers. I designed and tested several types of couplers 
-                using commercial electromagnetic simulation tools, <strong>Lumerical</strong>, and verified the results through multiple simulation methods, 
-                including FDE, EME, and FDTD. I then fabricated the devices and characterized their performance to 
-                evaluate their robustness and fabrication sensitivity.
-            </p>
+        <p>
+            <strong>Prof. Alireza Marandi, California Institute of Technology (January 2023 - December 2023)</strong>
+        </p>
+        <p>
+            <img src="../assets/img/couplers.jpg" style="margin-left: 10px;" width="750" alt="couplers" />
+        </p>
+        <p>
+            In this project, I worked on integrated photonics using thin-film lithium niobate <strong>(TFLN)</strong>,
+            a promising platform for low-cost, energy-efficient communication, sensing, and computing.
+            Thanks to its strong nonlinearity, TFLN is emerging as a leading candidate for photonic computing.
+            However, building a full optical computer requires integrating both linear and nonlinear elements
+            on the same chip—something that has not yet been fully achieved. My goal was to help bridge this
+            gap by optimizing a key component: optical couplers. I designed and tested several types of couplers
+            using commercial electromagnetic simulation tools, <strong>Lumerical</strong>, and verified the results
+            through multiple simulation methods,
+            including FDE, EME, and FDTD. I then fabricated the devices and characterized their performance to
+            evaluate their robustness and fabrication sensitivity.
+        </p>
 
     </section>
 
@@ -89,7 +93,7 @@
         document.addEventListener("DOMContentLoaded", function () {
             const hamburger = document.querySelector(".hamburger");
             const navLinks = document.querySelector(".nav-links");
-    
+
             hamburger.addEventListener("click", function () {
                 navLinks.classList.toggle("show");
             });
@@ -97,4 +101,5 @@
     </script>
 
 </body>
+
 </html>
